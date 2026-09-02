@@ -327,7 +327,7 @@
   
   <div class="timer-bar">
     <span class="timer-left">
-      <span class="timer-season">Season <span id="season-num">63</span></span>
+      <span class="timer-season">Season <span id="season-num">64</span></span>
       <span class="timer-sep">&middot;</span>
       <span class="timer-clock">
         <span class="timer-digits"><span id="timer-d">--</span><span class="timer-unit">d</span></span>
@@ -351,10 +351,10 @@
       </div>
       <div class="stats-col">
         <span class="stat-label">Est. Season Total</span>
-        <span class="stat-val" id="est-season">1,609,134</span>
+        <span class="stat-val" id="est-season">1,664,421</span>
       </div>
       <div class="stats-col">
-        <span class="stat-label" id="avg-label">Avg/Day &middot; -3d left</span>
+        <span class="stat-label" id="avg-label">Avg/Day &middot; 25d left</span>
         <span class="stat-val" id="avg-daily">1,728</span>
       </div>
     </div>
@@ -392,14 +392,14 @@
   </div>
   <div class="footer">
     <div class="footer-updated" id="updated-ago"></div>
-    Snapshot: <span id="snapshot-ts">2026-09-02 08:50:07</span>
-    <div class="ref">Ref (30m): 2026-09-02 08:40:10 &middot; Ref (hourly): 2026-09-02 08:34:26 &middot; Ref (daily): 2026-09-01 13:30:22</div>
+    Snapshot: <span id="snapshot-ts">2026-09-02 08:55:36</span>
+    <div class="ref">Ref (30m): 2026-09-02 08:50:08 &middot; Ref (hourly): 2026-09-02 08:40:10 &middot; Ref (daily): 2026-09-01 13:30:22</div>
     <div class="footer-csv"><a id="csv-link">Download CSV</a></div>
   </div>
 </div>
 <script>
 (function() {
-  var end = new Date("2026-08-30T04:59:59Z").getTime();
+  var end = new Date("2026-09-27T04:59:59Z").getTime();
   function tick() {
     var diff = end - new Date().getTime();
     if (diff <= 0) { document.getElementById("timer-d").textContent = "0"; document.getElementById("timer-h").textContent = "00"; document.getElementById("timer-m").textContent = "00"; document.getElementById("timer-s").textContent = "00"; return; }
@@ -413,7 +413,7 @@
 })();
 window.__goalTiers = [[100000, "5 Stamina Rolls"], [500000, "20 Stamina Rolls"], [750000, "Back Item"], [1000000, "Weapon"], [1600000, "Jutsu"]];
 window.__avgDaily = 1728;
-window.__seasonEnd = "2026-08-30T04:59:59Z";
+window.__seasonEnd = "2026-09-27T04:59:59Z";
 window.__hourlyCache = {"Satanouske": 27605, "SS Finotxi": 44487, "Dajjal": 23515, "SS MAK LAMPIR": 28678, "Tu Verdadero Marido": 10376, "\u00a7azacel\u00a7": 53873, "soifon": 24652, "Mr.1": 28399, "SS | Ali Fka": 63100, "SS PHARAONE": 24538, "SS Aiko": 17645, "ilham": 25638, "Gata Only": 0, "Parakang": 17948, "\u2022R\u00a5U\u2022": 6198, "Sakera S1": 73517, "Whymeee": 5401, "Evana Van Stenberg ": 35471, "\u2022Y\u00b5m\u00edko\u2022": 77075, "BOBOYBLAZE": 9448, "\u00d0ictat\u00f8R": 69213, "DONQOUIXTE ": 19058, "Shinigami Lover": 10579, "SS IMORTAL": 53231, "El Temach": 9134, "Syu Revenoir": 25329, "LorD": 19777, "SS Lone Death": 20764, "SS Master SS ": 45476, "Light Yagami": 10450, "Alvaro_DR": 31848, "RyExHinzxc": 27167, "SETYA:) ": 21942, "Cosmo Raion": 7816, "Soul Anbu": 22151, "Dracht": 83702, "SS | german.s97": 36813, "G\u00f3mez ": 19369, "SS HaN": 37882, "Zannpist Revenoir": 13520, "-Supreme Zeno-": 50776, "SS Rain": 18235, "SS Ruzzz.": 36353, "geri": 18663, "Itachi Uchiha": 41659, "Haruka Sakura": 18947, "Inosuke Hashibira": 16337, "Kurosaki Ichigo": 17085};
 window.__30mCache = {"Satanouske": 27605, "SS Finotxi": 44487, "Dajjal": 23515, "SS MAK LAMPIR": 28678, "Tu Verdadero Marido": 10376, "\u00a7azacel\u00a7": 53873, "soifon": 24652, "Mr.1": 28399, "SS | Ali Fka": 63100, "SS PHARAONE": 24538, "SS Aiko": 17645, "ilham": 25638, "Gata Only": 0, "Parakang": 17948, "\u2022R\u00a5U\u2022": 6198, "Sakera S1": 73517, "Whymeee": 5401, "Evana Van Stenberg ": 35471, "\u2022Y\u00b5m\u00edko\u2022": 77075, "BOBOYBLAZE": 9448, "\u00d0ictat\u00f8R": 69213, "DONQOUIXTE ": 19058, "Shinigami Lover": 10579, "SS IMORTAL": 53231, "El Temach": 9134, "Syu Revenoir": 25329, "LorD": 19777, "SS Lone Death": 20764, "SS Master SS ": 45476, "Light Yagami": 10450, "Alvaro_DR": 31848, "RyExHinzxc": 27167, "SETYA:) ": 21942, "Cosmo Raion": 7816, "Soul Anbu": 22151, "Dracht": 83702, "SS | german.s97": 36813, "G\u00f3mez ": 19369, "SS HaN": 37882, "Zannpist Revenoir": 13520, "-Supreme Zeno-": 50776, "SS Rain": 18235, "SS Ruzzz.": 36353, "geri": 18663, "Itachi Uchiha": 41659, "Haruka Sakura": 18947, "Inosuke Hashibira": 16337, "Kurosaki Ichigo": 17085};
 (function() {
